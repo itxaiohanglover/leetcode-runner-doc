@@ -1,9 +1,11 @@
-name: 部署文档
+name: deploy docs
 
 on:
   push:
     branches:
       - main
+  # 手动触发部署
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,22 +13,24 @@ permissions:
 jobs:
   deploy-main:
     runs-on: ubuntu-latest
+    
     steps:
-      # clone 该仓库的源码到工作流中
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           # "最近更新时间"等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
 
       - name: 安装 pnpm
         uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+          version: 8
 
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
           cache: pnpm
       
       - name: 安装依赖
