@@ -1,10 +1,11 @@
-name: 部署文档
+name: deploy docs
 
 on:
   push:
     branches:
-      # 确保这是你正在使用的分支名称
-      - docs
+      - main
+  # 手动触发部署
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,18 +13,17 @@ permissions:
 jobs:
   deploy-main:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
+          # "最近更新时间"等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
-          # submodules: true
 
       - name: 安装 pnpm
         uses: pnpm/action-setup@v2
         with:
-          run_install: true
+          run_install: false
           version: 8
 
 
@@ -32,18 +32,15 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
-
+      
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile
 
       - name: 构建文档
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
-          pnpm run docs:build
-          > docs/.vuepress/dist/.nojekyll
+        run: pnpm run docs:build
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # 这是文档部署到的分支名称
-          branch: main
-          folder: docs/.vuepress/dist
+          FOLDER: docs/.vuepress/dist
+          BRANCH: gh-pages
