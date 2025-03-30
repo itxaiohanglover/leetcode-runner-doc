@@ -10,6 +10,7 @@ module.exports = {
         ['link', {rel: 'icon', href: '/img/logo/leetcode-runner-v1.png'}], //favicons，资源放在public文件夹
         ['meta', {name: 'keywords', content: 'leetcode,Leetcode-runner,力扣'}],
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
+        ['meta', { id: 'referrer', name: 'referrer', content: 'never'}] // 防盗链
     ],
 
     // 主题配置
