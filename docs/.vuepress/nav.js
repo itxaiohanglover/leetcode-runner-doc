@@ -18,6 +18,7 @@ module.exports = [
             {text: '使用配置', link: '/pages/a20ce8/'},
             {
                 text: '算法', items: [
+                    {text: 'API', link: '/pages/7f778v/'},
                     {text: '算法模板', link: '/pages/7f76b7/'},
                 ]
             },
