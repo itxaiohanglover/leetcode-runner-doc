@@ -12,7 +12,6 @@ module.exports = {
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
         ['meta', { id: 'referrer', name: 'referrer', content: 'never'}] // 防盗链
     ],
-
     // 主题配置
     themeConfig: {
         nav,
