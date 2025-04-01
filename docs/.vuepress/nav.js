@@ -4,7 +4,7 @@ module.exports = [
         text: '指南', link: '/pages/a2f161/', items: [
             {text: '简 介', link: '/pages/a2f161/'},
             {text: '安 装', link: '/pages/2f674a/'},
-            {text: '快速开始', link: '/pages/793dcb/'},
+            {text: '快速上手', link: '/pages/793dcb/'},
             {text: '使用配置', link: '/pages/a20ce8/'},
             {text: '辅助功能', link: '/pages/98u9hk/'},
             {text: '更新日志', link: '/pages/jojodijwoj/'}, // 避免导航栏过长
@@ -13,7 +13,7 @@ module.exports = [
     {
         text: '教程', link: '/pages/a20ce8/', items: [
             {text: '源码讲解', link: '/pages/a55945553/', items: [
-                {text: '使用配置', link: '/pages/a55945553/'},
+                {text: '调试引擎', link: '/pages/a55945553/'},
             ]},
             {
                 text: '算法', items: [
