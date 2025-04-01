@@ -5,12 +5,7 @@ module.exports = [
             {text: '简 介', link: '/pages/a2f161/'},
             {text: '安 装', link: '/pages/2f674a/'},
             {text: '快速开始', link: '/pages/793dcb/'},
-            {
-                text: '更新日志', items: [
-                    {text: 'v3.6.8', link: '/pages/jojodijwoj/'},
-                    // {text: '素材', link: '/pages/b45deb/'},
-                ]
-            },
+            {text: '更新日志', link: '/pages/jojodijwoj/'}, // 避免导航栏过长
         ]
     },
     {
