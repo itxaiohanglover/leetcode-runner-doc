@@ -7,8 +7,8 @@ module.exports = [
             {text: '快速开始', link: '/pages/793dcb/'},
             {
                 text: '更新日志', items: [
-                    {text: 'v3.5.0', link: '/pages/1705234447153963010/'},
-                    {text: '素材', link: '/pages/b45deb/'},
+                    {text: 'v3.6.8', link: '/pages/jojodijwoj/'},
+                    // {text: '素材', link: '/pages/b45deb/'},
                 ]
             },
         ]
@@ -16,10 +16,12 @@ module.exports = [
     {
         text: '教程', link: '/pages/a20ce8/', items: [
             {text: '使用配置', link: '/pages/a20ce8/'},
+            {text: '辅助功能', link: '/pages/98u9hk/'},
             {
                 text: '算法', items: [
-                    {text: 'API', link: '/pages/7f778v/'},
                     {text: '算法模板', link: '/pages/7f76b7/'},
+                    {text: '各语言常用写法', link: '/pages/0x3f/'},
+                    {text: 'API', link: '/pages/7f778v/'},
                 ]
             },
         ]
