@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/logo/leetcode-runner-v1.png
 heroText: Leetcode-runner
-tagline: 🚀 Leetcode-runner（简称LR）是一款JetBrains全功能IDE插件，基于IDE原生交互逻辑设计，提供无缝衔接的本地刷题体验。
+tagline: 🚀 Leetcode-runner（简称Runner或LR）是一款JetBrains全功能IDE插件，基于IDE原生交互逻辑设计，提供无缝衔接的本地刷题体验。
 actionText: 开始使用 →
 actionLink: /pages/a2f161/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
