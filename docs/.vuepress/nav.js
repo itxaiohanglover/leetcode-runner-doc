@@ -15,13 +15,13 @@ module.exports = [
     },
     {
         text: '教程', link: '/pages/a20ce8/', items: [
-            {text: '使用配置', link: '/pages/a20ce8/'},
-            {text: '辅助功能', link: '/pages/98u9hk/'},
+            {text: '源码讲解', link: '/pages/a55945553/', items: [
+                {text: '调试引擎', link: '/pages/a55945553/'},
+            ]},
             {
                 text: '算法', items: [
+                    {text: 'API入门', link: '/pages/0x3f/'},
                     {text: '算法模板', link: '/pages/7f76b7/'},
-                    {text: '各语言常用写法', link: '/pages/0x3f/'},
-                    {text: 'API', link: '/pages/7f778v/'},
                 ]
             },
         ]
