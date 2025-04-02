@@ -7,7 +7,7 @@ module.exports = [
             {text: '快速开始', link: '/pages/793dcb/'},
             {
                 text: '更新日志', items: [
-                    {text: 'v3.6.8', link: '/pages/jojodijwoj/'},
+                    {text: 'v3.6.9', link: '/pages/ojodioj/'},
                     // {text: '素材', link: '/pages/b45deb/'},
                 ]
             },

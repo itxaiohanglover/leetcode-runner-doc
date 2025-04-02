@@ -10,6 +10,7 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 features: # 可选的
 - title: 独立的调试引擎
   details: 内置Debug系统，兼容多种语言，无需额外编码，一键调试Solution代码
+  actionLink: /pages/a2f161/#%E6%A0%B8%E5%BF%83%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95%E5%8A%9F%E8%83%BD
 - title: 智能刷题系统
   details: FSRS算法驱动的自适应训练计划、内置Hot100/面试150/竞赛题等题库。
 - title: 大佬刷题清单集成
