@@ -13,8 +13,7 @@ module.exports = [
             },
             {
                 text: '更新日志', items: [
-                    {text: 'v3.6.9-PATCH', link: '/pages/jkljjodioj/'},
-                    // {text: '素材', link: '/pages/b45deb/'},
+                    {text: 'v3.6.9-PATCH', link: '/pages/jkljjodioj/'}
                 ]
             },
 
@@ -24,9 +23,6 @@ module.exports = [
         text: '教程', link: '/pages/a20ce8/', items: [
             {text: '开发文档-1', link: '/pages/e88d84d/'},
             {text: '开发文档-2', link: '/pages/yih7ij/'},
-            {text: '调试引擎', items: [
-                // {text: '调试引擎', link: '/pages/a55945553/'},
-            ]},
             {
                 text: '算法', items: [
                     {text: 'API入门', link: '/pages/0x3f/'},
