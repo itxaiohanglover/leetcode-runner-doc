@@ -25,8 +25,9 @@ module.exports = [
             {text: '开发文档-2', link: '/pages/yih7ij/'},
             {
                 text: '算法', items: [
+                    {text: '前言', link: '/pages/7f76b7/'},
                     {text: 'API入门', link: '/pages/0x3f/'},
-                    {text: '算法模板', link: '/pages/7f76b7/'},
+                    {text: '滑动窗口', link: '/pages/7f7895/'},
                 ]
             },
         ]
