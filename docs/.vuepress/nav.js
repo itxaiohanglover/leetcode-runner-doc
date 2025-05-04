@@ -13,7 +13,7 @@ module.exports = [
             },
             {
                 text: '更新日志', items: [
-                    {text: 'v3.6.9-PATCH', link: '/pages/jkljjodioj/'}
+                    {text: 'v3.7.0', link: '/pages/jkljjodioj/'}
                 ]
             },
 
